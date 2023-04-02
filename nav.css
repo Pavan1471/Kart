@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Oswald:wght@600&display=swap');
+.container__1{
+    display: flex;
+    margin-right: 20px;
+}
+.top{
+    margin-right: 20px;
+    
+    margin-top: 7px;
+    color:white;
+}
+
+.top:hover{
+    color: #212121;
+    transition: 0.3s ease;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    
+    background-color: #FFC0CB;
+    background-color: #1AA7EC;
+    
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#search{
+    border-radius: 10px;
+    height: 35px;
+    margin-right: 20px;
+
+}
+button{
+    font-weight: bold;
+
+
+    
+}
+.btn{
+    margin-right: 2px;
+}
+#btt{
+    margin-right: 5px;
+}
+#logo{
+    width: 100px;
+    margin-right: 50px;
+}
+
+button::placeholder{
+    text-align: center;
+
+}
+.container__2--para{
+    
+    margin-left: 58px;
+    color: #808080;
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0.6;
+
+
+}
+.form-control{
+    background-color: #1AA7EC;
+}
+.container__2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    padding-top: 50px;
+}
+.container__2--heading{
+    margin-left: 50px;
+    font-size: 90px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 300;
+   
+}
+.container__2--btn{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.bg{
+    width: 500px;
+    margin-top: 50px;
+    
+}
+
+
+
+.container__3--heading{
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Fredoka One', cursive;
+  margin-bottom: 20px;
+  margin-top: -70px;
+}
+
+
+.container__4{
+  display: flex;
+  justify-content: space-evenly;
+  height: 220px;
+  background: lightpink;
+  padding-bottom: 40px;
+padding-top: 40px;
+margin-left: 0px;
+margin-right: 0px;
+background-color: #e7f9f3;
+
+  
+  
+  
+}
