@@ -210,6 +210,8 @@ button::placeholder{
     }
     .web_text{
         margin-bottom:0px;
+        margin-left: 5%;
+        margin-right: 5%;
     }.container__4{
         margin-top:180px;
     }
