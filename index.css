@@ -142,7 +142,6 @@ button::placeholder{
   }
   .nav-mobile{
     position: sticky;
-    display:none;
     top: 0;
     /* margin-top: -120px;
     z-index: -1; */
@@ -208,5 +207,8 @@ button::placeholder{
         margin-bottom:0px;
     }.container__4{
         margin-top:100px;
+    }
+    .container__2--btn{
+        margin-bottom: 60px;
     }
 }
