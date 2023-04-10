@@ -17,8 +17,6 @@
 .main{
     display: flex;
     justify-content: space-around;
-    margin-top: 0px;
-    
     background-color: #FFC0CB;
     background-color: #1AA7EC;
     
@@ -36,15 +34,12 @@
 
 }
 button{
-    font-weight: bold;
-
-
-    
+    font-weight: bold;  
 }
-h1{
-    /* margin-top: 50%; */
-    /* margin-left: 50px; */
-}
+/* h1{
+    margin-top: 50%;
+    margin-left: 50px;
+} */
 .btn{
     margin-right: 2px;
 }
@@ -59,6 +54,15 @@ h1{
 button::placeholder{
     text-align: center;
 
+}
+.web_text{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .container__2--para{
     
@@ -88,8 +92,9 @@ button::placeholder{
    
 }
 .container__2--btn{
-    margin-left: 140px;
+    /* margin-left: 140px; */
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .bg{
@@ -137,8 +142,12 @@ button::placeholder{
   }
   .nav-mobile{
     position: sticky;
+    display:none;
     top: 0;
+    /* margin-top: -120px;
+    z-index: -1; */
     display: flex;
+    visibility: hidden;
     justify-content: space-between;
     margin-right: 0px;
     background-color: whitesmoke;
@@ -158,7 +167,10 @@ button::placeholder{
     font-weight: bold;
   }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:880px){
+    .container__4{
+        height: 155px;
+    }
     .container__4 img{
         width: 100px;
         height: 70px;
@@ -171,21 +183,30 @@ button::placeholder{
         width: 250px;
         margin-left: 4%;
     }
+    .nav-mobile{
+        visibility: visible;
+    }
     .item1{
         order: 2;
         text-align: center;
     }
     .main{
         display: none;
+        /* margin-top: -20px; */
     }
-    #btn{
+    /* #btn{
         display: flex;
         justify-content: center;
         text-align: center;
-    }
+    } */
     .container__2--heading{
         font-size: 60px;
         margin-left: 7%;
         
+    }
+    .web_text{
+        margin-bottom:0px;
+    }.container__4{
+        margin-top:100px;
     }
 }
