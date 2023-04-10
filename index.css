@@ -83,6 +83,8 @@ button::placeholder{
     /* align-items: center; */
     height: 400px;
     padding-top: 50px;
+    margin-top: -10px;
+    margin-bottom: 70px;
 }
 .container__2--heading{
     margin-left: 50px;
@@ -206,9 +208,12 @@ button::placeholder{
     .web_text{
         margin-bottom:0px;
     }.container__4{
-        margin-top:100px;
+        margin-top:180px;
     }
     .container__2--btn{
-        margin-bottom: 60px;
+        margin-bottom: 20px;
+    }
+    .container__2{
+        margin-top: 110px;
     }
 }
