@@ -137,7 +137,7 @@ button::placeholder{
   }
   .nav-mobile{
     position: sticky;
-    display:block;
+    display:none;
     top: 0;
     display: flex;
     justify-content: space-between;
